@@ -1,6 +1,6 @@
 package com.deepblue.aidevicemanager.service;
 
-import com.deepblue.aidevicemanager.entity.OaModels;
+import com.deepblue.aidevicemanager.entity.Series;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author df
  * @since 2020-04-20
  */
-public interface OaModelsService extends IService<OaModels> {
+public interface SeriesService extends IService<Series> {
 
 }

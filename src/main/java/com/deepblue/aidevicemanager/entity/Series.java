@@ -17,25 +17,17 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("oa_user")
-public class OaUser implements Serializable {
+@TableName("oa_series")
+public class Series implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    /**
-     * dia
-     */
     private String id;
 
     /**
-     * 电话
+     * 系列名称
      */
-    private String phone;
-
-    /**
-     * 密码
-     */
-    private String password;
+    private String name;
 
 
 }

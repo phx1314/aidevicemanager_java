@@ -1,6 +1,6 @@
 package com.deepblue.aidevicemanager.service;
 
-import com.deepblue.aidevicemanager.entity.OaDevice;
+import com.deepblue.aidevicemanager.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author df
  * @since 2020-04-20
  */
-public interface OaDeviceService extends IService<OaDevice> {
+public interface UserService extends IService<User> {
 
 }

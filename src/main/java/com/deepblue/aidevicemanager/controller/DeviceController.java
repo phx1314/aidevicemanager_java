@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-04-20
  */
 @RestController
-@RequestMapping("/oaSeries")
-public class OaSeriesController {
+@RequestMapping("/device")
+public class DeviceController {
 
 }

@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("oa_models")
-public class OaModels implements Serializable {
+public class Models implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

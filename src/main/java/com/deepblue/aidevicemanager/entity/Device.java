@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("oa_device")
-public class OaDevice implements Serializable {
+public class Device implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -48,7 +48,7 @@ public class OaDevice implements Serializable {
 
     private String wifi;
 
-    private String yidong;
+    private String yd;
 
     private String quantitiy;
 

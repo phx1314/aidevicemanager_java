@@ -43,7 +43,7 @@ public class MysqlGenerator {
     private static String mapperPath = "";
 
     public static void main(String[] args) {
-        generate("df","com.deepblue.aidevicemanager", "oa_");
+        generate("df","com.deepblue.aidevicemanager", "oa");
     }
 
 
@@ -179,7 +179,7 @@ public class MysqlGenerator {
      * @param mapperFile
      * @return
      */
-    private static TemplateConfig initTemplateConfig(String mapperFile) {
+    private static TemplateConfig initTemplateConfig(String mapperFile)  {
         TemplateConfig tc = new TemplateConfig();
         tc.setXml(null);
         //如果当前Entity已经存在,那么仅仅覆盖Entity

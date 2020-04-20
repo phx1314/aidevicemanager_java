@@ -1,6 +1,6 @@
 package com.deepblue.aidevicemanager.mapper;
 
-import com.deepblue.aidevicemanager.entity.OaModels;
+import com.deepblue.aidevicemanager.entity.Series;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author df
  * @since 2020-04-20
  */
-public interface OaModelsMapper extends BaseMapper<OaModels> {
+public interface SeriesMapper extends BaseMapper<Series> {
 
 }
